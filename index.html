@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Pravin Kumar Maruthai's Resume</title>
+  <title>Pravin Kumar's Resume</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="pk_icon.png" rel="icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="icon" href="https://arunraja.co.in/image1.jpg" sizes="16x16">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel='stylesheet' href='bootstrap-social.css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/88a9acc0e5.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+</svg>
   <style>
     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
     .row.content {height: 1500px}
@@ -26,6 +31,24 @@
     }
     
 element.style {
+}
+.link-btn{
+margin-left: 13%;
+}
+.btn-hack {
+    color: #fff;
+    background-color: #0c840e;
+    border-color: rgba(0,0,0,0.2);
+}
+.btn-mbl {
+    color: #fff;
+    background-color: #0c840e;
+    border-color: rgba(0,0,0,0.2);
+}
+.btn-mail {
+    color: #fff;
+    background-color: #2e06b9;
+    border-color: rgba(0,0,0,0.2);
 }
 .avatar_image {
     border: 12px solid #fff;
@@ -207,7 +230,7 @@ element.style {
       </div>
       <div id='toogle-menu-id' style="display: none;">
       <ul class="nav nav-pills nav-stacked ">
-        <li class="focus"><a id="home-menu" class="#profile active">Home</a></li>
+        <li class="focus"><a id="home-menu" class="#profile active">About Me</a></li>
         <li><a id="objective-menu" class="#objective">Objective</a></li>
         <li><a id="professional-summary-menu" class="#professional-summary">Professional Summary</a></li>
         <li><a id="experience-menu" class="#work-experience">Experience</a></li>
@@ -220,12 +243,12 @@ element.style {
 <div class="container-fluid" style="background-color: black;">
   
   <div class="row content" id="profile" >
-    <div class="col-sm-3 sidenav">
+    <div class="col-sm-3 sidenav" style="width: 14%;">
 <img src="background.jpg" style="width: inherit; height: inherit; position: fixed;">
-    <div class=context-class>
-      <h4 class="blogheader">Pravin Kumar Maruthai's Resume</h4>
+    <div class=context-class style="width: inherit;">
+      <h4 class="blogheader">Pravin Kumar's Resume</h4>
       <ul class="nav nav-pills nav-stacked ">
-        <li class="focus"><a id="home" class="#profile active">Home</a></li>
+        <li class="focus"><a id="home" class="#profile active">About Me</a></li>
         <li><a id="objective-menu" class="#objective">Objective</a></li>
         <li><a id="professional-summary-menu" class="#professional-summary">Professional Summary</a></li>
         <li><a id="experience" class="#work-experience">Experience</a></li>
@@ -235,7 +258,7 @@ element.style {
       </div>
     </div>
 
-    <div class="col-sm-9 bodycontent">
+    <div class="col-sm-9 bodycontent" style="width: 86%;">
     
     <div class="row pravinresume">
         <div class="col-sm-4">
@@ -250,15 +273,17 @@ element.style {
 
           <h2>About Me</h2>
           <h5>
-          <br>A dynamic, detailed-oriented and high analytical  IT professional with 4+ years of experience in my industry.<br>
-          <br>I have a deep understanding of technical subjects in different perspective towards making solutions. I'm an<br>
-          <br>avid open source skillful developer.Openess to any concern of updating and equiping myself for the betterment.<br>
+          <p style="line-height: 2;">
+          A Self-motivated, consistent and high analytical  IT professional having innovative capabilities with 5+ years of
+          experience in software development. Possess excellent skills on Data Structures and Algorithms, problem solving and have experience in
+		  solving complex problems. I'm an avid open source skillful developer, Openess to any concern of updating and equiping myself for the betterment.
+		  </p>
           </h5>
-          <!-- <h2 class="work-suit-text-grey work-suit-padding-16">
+           <h2 class="work-suit-text-grey work-suit-padding-16">
           <a href="https://twitter.com/pravin_kumar_08">
          <i class="fa fa-twitter  fa-fw work-suit-margin-right work-suit-xxlarge work-suit-text-teal"></i>Objective
          </a>
-         </h2> -->
+         </h2> 
         </div>
       </div>
       
@@ -353,9 +378,11 @@ element.style {
         <div class="col-sm-12">
         <h2 class="work-suit-text-grey work-suit-padding-16"><i class="fa fa-user-circle fa-fw work-suit-margin-right work-suit-xxlarge work-suit-text-teal"></i>Contact</h2>
         <div class="work-suit-container work-set">
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Chennai, India</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>pravin8895@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91 9600457131</p>
+		  <a href="tel:+919600457131" class="link-btn btn btn-social-icon btn-lg btn-mbl"><i class="fa fa-phone" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/pravin-kumar-5145777a/" class="link-btn btn btn-social-icon btn-lg btn-linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/pravin8895" class="link-btn btn btn-social-icon btn-lg btn-github"><i class="fa fa-github"></i></a>
+          <a href="https://www.hackerrank.com/pravin8895" class="link-btn btn btn-social-icon btn-lg btn-hack"><i class="fab fa-hackerrank"></i></a>
+          <a href="mailto://?subject=RE:%20with%20reference%20to%20your%20CV&to=pravin8895@gmail.com" class="link-btn btn btn-social-icon btn-lg btn-mail"><i class="fas fa-envelope"></i></a>
           <hr>
         </div>
         </div>
